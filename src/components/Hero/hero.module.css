@@ -1,0 +1,32 @@
+.heroContainer {
+  background-image: url(../../images/heroBackground.png) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+  top: -10px;
+  left: -5px;
+}
+.heroCoconutImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 35%;
+  height: 10%;
+  /* width: 60%;
+  height: 12%; */
+}
+.heroHeaderContainer {
+    margin-top: 10rem;
+    right: 0 !important;
+    position: absolute;
+}
+.heroImage {
+    padding: 0 !important;
+}
+.heroHeadingText {
+    font-family: 'Varela Round', sans-serif;
+    flex-direction: column;
+}

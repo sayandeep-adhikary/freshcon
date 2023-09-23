@@ -1,0 +1,38 @@
+.container {
+  font-family: "Varela Round", sans-serif;
+}
+.productContainer {
+  flex-direction: column;
+}
+.CoconutTreeImg {
+  /* scale: 1.1; */
+  position: absolute;
+  top: 52rem;
+  left: 54rem;
+  z-index: 0;
+  width: 32.4%;
+  height: 10%;
+  z-index: -2;
+  overflow: hidden;
+}
+.comment {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #8C5036 !important;
+  letter-spacing: 0.8px;
+}
+.freshcon {
+  background: rgb(84, 169, 49);
+  background: linear-gradient(
+    0deg,
+    rgba(84, 169, 49, 1) 44%,
+    rgba(29, 127, 53, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imageText {
+    position: absolute;
+    top: 1.5rem;
+    left: 7rem;
+}

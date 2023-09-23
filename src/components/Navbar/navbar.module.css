@@ -1,0 +1,8 @@
+.navContainer {
+    background-color: #FFF3EC !important;
+    border-radius: 0 0 30px 30px !important;
+    z-index: 200;
+}
+.navLogo {
+    margin-left: 4rem;
+}
