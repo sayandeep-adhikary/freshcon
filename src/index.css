@@ -6,3 +6,8 @@
 body {
   user-select: none !important;
 }
+@media (width < 500px){
+  body {
+    text-align: center;
+  }
+}

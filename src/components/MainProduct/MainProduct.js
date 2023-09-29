@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./MainProduct.module.css";
-import { Image, Text } from "@chakra-ui/react";
-import sand1 from "../../images/sand1.png";
-import sand2 from "../../images/sand2.png";
-import rectangleBackground from "../../images/Rectangle 21.png";
+import { Text, Container, Image } from "@chakra-ui/react";
 import mainProduct from "../../images/mainProduct.png";
+import sand1 from "../../images/sand1.png";
+// import { Image, Text } from "@chakra-ui/react";
+// import sand2 from "../../images/sand2.png";
+// import rectangleBackground from "../../images/Rectangle_bg.png";
 import arrow1 from "../../images/Vector1.png";
 import arrow2 from "../../images/Vector2.png";
 import arrow3 from "../../images/Vector3.png";
@@ -19,9 +20,19 @@ import circle5 from "../../images/circle5.png";
 export default function MainProduct() {
   return (
     <div className={styles.mainProductContainer}>
-      <Image src={rectangleBackground} alt="rectangle background" />
+      <Text
+        color={"white"}
+        textAlign={"center"}
+        className={`${styles.headingText}`}
+      >
+        Freshcon Shredded Coconut stands out with the these USPs:
+      </Text>
+
+      <Container >
+        <Image src={mainProduct} alt="product" className={`${styles.productImg}`} />
+      </Container>
       <Image src={sand1} alt="sand" className={styles.sand1} />
-      <Image src={sand2} alt="sand" className={styles.sand2} />
+
       <Image src={arrow1} alt="sand" className={styles.arrow1} />
       <Image src={arrow2} alt="sand" className={styles.arrow2} />
       <Image src={arrow3} alt="sand" className={styles.arrow3} />
@@ -32,7 +43,8 @@ export default function MainProduct() {
       <Image src={circle3} alt="sand" className={styles.circle3} />
       <Image src={circle4} alt="sand" className={styles.circle4} />
       <Image src={circle5} alt="sand" className={styles.circle5} />
-      <Image src={mainProduct} alt="product" className={styles.product} />
+      {/* <Image src={rectangleBackground} alt="rectangle background" />
+      <Image src={sand2} alt="sand" className={styles.sand2} />
       <Text className={styles.text}>
         Freshcon Shredded Coconut stands out with the these USPs:
       </Text>
@@ -42,7 +54,7 @@ export default function MainProduct() {
       </Text>
       <Text className={styles.text3}>Safe & Hygienically <br /> Produced </Text>
       <Text className={styles.text1}>Convenient & <br /> Ready to Use</Text>
-      <Text className={styles.text4}>100% Natural Goodness <br /> of Coconut</Text>
+      <Text className={styles.text4}>100% Natural Goodness <br /> of Coconut</Text> */}
     </div>
   );
 }

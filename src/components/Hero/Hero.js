@@ -4,17 +4,17 @@ import Navbar from "../Navbar/Navbar";
 import treeLeaves from "../../images/treeLeaves.png";
 import heroImage from "../../images/heroImage.png";
 import {
-  SimpleGrid,
-  GridItem,
+  // SimpleGrid,
+  // GridItem,
   Text,
-  Heading,
-  VStack,
+  // Heading,
+  // VStack,
   Image,
 } from "@chakra-ui/react";
 
 export default function Hero() {
   return (
-    <div className={styles.heroContainer}>
+    <div className={`${styles.heroContainer}`}>
       <Navbar />
       <Image
         objectFit="cover"

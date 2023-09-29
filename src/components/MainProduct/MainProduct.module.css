@@ -1,4 +1,111 @@
+.mainProductContainer {
+  font-family: "Varela Round", sans-serif;
+  background-color: #0c7236;
+  min-height: 135vh;
+  position: relative;
+}
+.headingText {
+  font-size: 2rem;
+  padding: 5rem 0;
+}
+.productImg {
+  position: absolute;
+  width: 22%;
+  left: 38%;
+  bottom: 5%;
+  z-index: 3;
+}
 .sand1 {
+  position: absolute;
+  bottom: 0;
+}
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4,
+.arrow5,
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5 {
+  position: absolute;
+  z-index: 5;
+}
+.circle1 {
+  top: 36rem !important;
+  left: 10rem;
+}
+.circle2 {
+  top: 17rem !important;
+  left: 55rem;
+}
+.circle3 {
+  top: 34rem !important;
+  left: 55rem;
+}
+.circle4 {
+  top: 17rem !important;
+  left: 4rem;
+}
+.circle5 {
+  bottom: 65% !important;
+  left: 33rem;
+}
+@media (width < 500px) {
+  .mainProductContainer {
+    min-height: 73vh;
+  }
+  .productImg {
+    width: 40%;
+    left: 30%;
+    bottom: 0%;
+    z-index: 3;
+  }
+  .headingText {
+    font-size: 1.4rem;
+    padding: 5rem 1rem;
+  }
+  .arrow1,
+  .arrow2,
+  .arrow3,
+  .arrow4,
+  .arrow5,
+  .circle1,
+  .circle2,
+  .circle3,
+  .circle4,
+  .circle5 {
+    scale: 0.5;
+  }
+  .circle1 {
+    top: 23rem !important;
+    left: -3.5rem;
+    scale: 0.4;
+  }
+  .circle2 {
+    top: 17rem !important;
+    left: 9rem;
+    scale: 0.3;
+  } 
+  .circle3 {
+    top: 22rem !important;
+    left: 12rem;
+    scale: 0.37;
+  }
+  .circle4 {
+    top: 12rem !important;
+    left: -5rem;
+    scale: 0.37;
+  }
+  .circle5 {
+    bottom: 45% !important;
+    left: 4rem;
+    scale: 0.37;
+  }
+}
+
+/* .sand1 {
   position: absolute;
   top: 2511px;
 }
@@ -10,10 +117,8 @@
   position: absolute;
   top: 2300px;
   left: 40%;
-}
-.mainProductContainer {
-  font-family: "Varela Round", sans-serif;
-}
+} */
+/*
 .text {
   position: absolute;
   top: 1950px;
@@ -114,4 +219,4 @@
 .text4 {
   top: 2200px;
   left: 15%;
-}
+} */

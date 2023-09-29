@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./FreshProducts.module.css";
-import { Text, Image, HStack, Box, Flex } from "@chakra-ui/react";
+import { Text, Image, HStack, Flex } from "@chakra-ui/react";
 import treeLeaves from "../../images/2ndsectioncoconutimage.png";
 import brokenCoconut from "../../images/brokenCoconut.png";
 import imageText from "../../images/imageText.png";
@@ -81,8 +81,9 @@ export default function FreshProducts() {
                 objectFit="cover"
                 src={brokenCoconut}
                 alt="brokenCoconut"
-                style={{ zIndex: 0, scale: "1.2" }}
-                pos={"absolute"}
+                className={styles.brokenCoconut}
+                // style={{ zIndex: 0, scale: "1.2" }}
+                // pos={"absolute"}
               />
               <Image
                 objectFit="cover"
@@ -90,6 +91,7 @@ export default function FreshProducts() {
                 alt="brokenCoconut"
                 className={styles.imageText}
                 style={{ zIndex: 201 }}
+                width={'50%'}
               />
             </div>
           </div>

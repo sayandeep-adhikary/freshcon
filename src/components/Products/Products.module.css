@@ -1,0 +1,27 @@
+.productsCoconutTree {
+    scale: 0.9;
+    position: absolute;
+    top: 1603px;
+    left: -17px;
+}
+@media (width < 500px){
+    .productsCoconutTree {
+        position: absolute;
+        top: 132rem;
+        left: -16px;
+    }
+}
+@media (width > 500px){
+    .productText{
+        padding: 0 200px;
+    }
+}
+
+.button {
+    background-color: #8C5036 !important;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1.2rem;
+    height: 37px;
+    width: 234px;
+}

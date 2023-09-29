@@ -5,15 +5,45 @@
   flex-direction: column;
 }
 .CoconutTreeImg {
-  /* scale: 1.1; */
+  scale: 0.9;
   position: absolute;
-  top: 52rem;
-  left: 54rem;
+  top: 50rem;
+  left: 55.3rem;
   z-index: 0;
   width: 32.4%;
-  height: 10%;
+  height: 29%;
   z-index: -2;
   overflow: hidden;
+}
+@media (width > 1350px){
+  .CoconutTreeImg {
+    scale: 0.9;
+    position: absolute;
+    top: 50rem;
+    left: 62.6rem;
+    z-index: 0;
+    width: 32.4%;
+    height: 29%;
+    z-index: -2;
+    overflow: hidden;
+  }
+}
+@media (width < 500px){
+  .CoconutTreeImg {
+    scale: 0.9;
+    position: absolute;
+    top: 33rem;
+    left: 8.3rem;
+    /* z-index: 4; */
+    width: 100%;
+    scale: 0.3;
+    /* height: 10%; */
+    /* z-index: -2; */
+    /* overflow: hidden; */
+  }
+}
+.brokenCoconut {
+  /* width: 20%; */
 }
 .comment {
   padding-bottom: 7px;
@@ -34,5 +64,11 @@
 .imageText {
     position: absolute;
     top: 1.5rem;
-    left: 7rem;
+    left: 9rem;
+}
+@media (width < 500px){
+  .imageText {
+      top: 1.5rem;
+      left: 6rem;
+  }
 }
