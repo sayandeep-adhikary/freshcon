@@ -1,7 +1,7 @@
 .mainProductContainer {
   font-family: "Varela Round", sans-serif;
   background-color: #0C7236;
-  min-height: 135vh;
+  min-height: 100vh;
   position: relative;
 }
 .sand1 {
@@ -21,7 +21,7 @@
 }
 @media (width < 500px){
   .mainProductContainer {
-    min-height: 65vh;
+    min-height: 50vh;
   }
   .productImg {
     position: absolute;

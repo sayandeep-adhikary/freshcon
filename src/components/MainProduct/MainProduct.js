@@ -6,16 +6,16 @@ import sand1 from "../../images/sand1.png";
 // import { Image, Text } from "@chakra-ui/react";
 // import sand2 from "../../images/sand2.png";
 // import rectangleBackground from "../../images/Rectangle_bg.png";
-import arrow1 from "../../images/Vector1.png";
-import arrow2 from "../../images/Vector2.png";
-import arrow3 from "../../images/Vector3.png";
-import arrow4 from "../../images/Vector4.png";
-import arrow5 from "../../images/Vector5.png";
-import circle1 from "../../images/circle1.png";
-import circle2 from "../../images/circle2.png";
-import circle3 from "../../images/circle3.png";
-import circle4 from "../../images/circle4.png";
-import circle5 from "../../images/circle5.png";
+// import arrow1 from "../../images/Vector1.png";
+// import arrow2 from "../../images/Vector2.png";
+// import arrow3 from "../../images/Vector3.png";
+// import arrow4 from "../../images/Vector4.png";
+// import arrow5 from "../../images/Vector5.png";
+// import circle1 from "../../images/circle1.png";
+// import circle2 from "../../images/circle2.png";
+// import circle3 from "../../images/circle3.png";
+// import circle4 from "../../images/circle4.png";
+// import circle5 from "../../images/circle5.png";
 
 export default function MainProduct() {
   return (
