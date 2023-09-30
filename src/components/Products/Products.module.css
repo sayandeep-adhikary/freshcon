@@ -1,14 +1,12 @@
 .productsCoconutTree {
     scale: 0.9;
     position: absolute;
-    top: 1603px;
+    top: -1.2rem;
     left: -17px;
 }
 @media (width < 500px){
     .productsCoconutTree {
-        position: absolute;
-        top: 132rem;
-        left: -16px;
+        display: none;
     }
 }
 @media (width > 500px){

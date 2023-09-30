@@ -27,7 +27,7 @@
   left: 0;
   z-index: 0;
   width: 35%;
-  height: 20%;
+  height: 10%;
   /* width: 60%;
   height: 12%; */
 }
@@ -38,7 +38,7 @@
     left: 0;
     z-index: 0;
     width: 45%;
-    height: 10%;
+    height: 3%;
   }
 }
 .heroHeaderContainer {

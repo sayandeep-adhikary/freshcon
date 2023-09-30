@@ -1,12 +1,48 @@
+.cardContainer {
+    background-color: #0C7236;
+    position: relative;
+}
+.sandImg {
+    position: absolute;
+    top: 0;
+}
 .mainText {
     font-family: "Varela Round", sans-serif;
-    position: absolute;
-    top: 2970px;
-    left: 40%;
+    padding-top: 5rem;
 }
 .text1 {
     font-family: "Varela Round", sans-serif;
+}
+.container {
+    position: relative;
+    font-family: "Varela Round", sans-serif;
+}
+.ellipse {
     position: absolute;
-    top: 3030px;
-    left: 30%;
+    z-index: 5;
+    top: 0.8rem;
+    border-radius: 50%;
+    background-color: #FFF3EC;
+}
+.factory, .sustainable {
+    position: absolute;
+    top: 1.5rem;
+    /* border-radius: 50%; */
+    background-color: #FFF3EC;
+    z-index: 10;
+    scale: 0.5;
+}
+.cardBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (width < 500px){
+    .mainText {
+        padding-top: 3rem;
+    }
+    .text1 {
+        padding: 0 1rem;
+    }
 }

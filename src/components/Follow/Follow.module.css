@@ -1,0 +1,77 @@
+.followContainer {
+  background-color: #0c7236;
+  position: relative;
+  height: 120vh !important;
+}
+.textContainer {
+  position: relative;
+}
+.followCircle {
+  position: absolute;
+  top: 5rem;
+}
+.coconut {
+  display: block;
+  position: absolute;
+  top: 10rem;
+  left: 20rem;
+}
+.text {
+  position: absolute;
+  top: 8rem !important;
+}
+.text2 {
+  position: absolute;
+  top: 10rem;
+}
+.container {
+  position: relative;
+}
+.coconutImg {
+  display: block;
+  position: absolute;
+  bottom: -12rem;
+  left: 5rem;
+}
+@media (width > 1400px){
+  .followContainer {
+    height: 86vh !important;
+  }
+}
+@media (width < 500px){
+  .followContainer {
+    height: 55.5rem !important;
+  }
+  .coconutImg {
+    width: 90% !important;
+    left: 1.5rem;
+    top: 26.5rem !important;
+  }
+  .mainText {
+    font-size: 1.5rem;
+    margin-left: 0 !important;
+  }
+  .line {
+    width: 50%;
+    padding-left: 0 !important;
+  }
+  .coconut {
+    width: 30%;
+    left: 14rem;
+    top: 5rem;
+  }
+  .followCircle {
+    width: 90%;
+    top: 1rem !important;
+  }
+  .text {
+    top: 3.5rem !important;
+  }
+  .text2 {
+    top: 5rem;
+  }
+}
+/* .coconutTree {
+    position: absolute;
+    top: 0;
+} */

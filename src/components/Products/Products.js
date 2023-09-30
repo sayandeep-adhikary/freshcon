@@ -8,7 +8,7 @@ export default function Products() {
     <Box
       py={"3rem"}
       bg={"#D8BAA0"}
-      style={{ fontFamily: "'Varela Round', sans-serif" }}
+      style={{ fontFamily: "'Varela Round', sans-serif", position: 'relative' }}
     >
       <Image
         src={productCoconutTree}

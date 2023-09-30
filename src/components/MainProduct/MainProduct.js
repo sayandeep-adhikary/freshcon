@@ -28,33 +28,86 @@ export default function MainProduct() {
         Freshcon Shredded Coconut stands out with the these USPs:
       </Text>
 
-      <Container >
-        <Image src={mainProduct} alt="product" className={`${styles.productImg}`} />
+      <Container>
+        <Image
+          src={mainProduct}
+          alt="product"
+          className={`${styles.productImg}`}
+        />
       </Container>
       <Image src={sand1} alt="sand" className={styles.sand1} />
-
-      <Image src={arrow1} alt="sand" className={styles.arrow1} />
-      <Image src={arrow2} alt="sand" className={styles.arrow2} />
-      <Image src={arrow3} alt="sand" className={styles.arrow3} />
-      <Image src={arrow4} alt="sand" className={styles.arrow4} />
-      <Image src={arrow5} alt="sand" className={styles.arrow5} />
-      <Image src={circle1} alt="sand" className={styles.circle1} />
-      <Image src={circle2} alt="sand" className={styles.circle2} />
-      <Image src={circle3} alt="sand" className={styles.circle3} />
-      <Image src={circle4} alt="sand" className={styles.circle4} />
-      <Image src={circle5} alt="sand" className={styles.circle5} />
-      {/* <Image src={rectangleBackground} alt="rectangle background" />
-      <Image src={sand2} alt="sand" className={styles.sand2} />
-      <Text className={styles.text}>
-        Freshcon Shredded Coconut stands out with the these USPs:
-      </Text>
-      <Text className={styles.text5}>Year Round <br /> Consistent Quality</Text>
-      <Text className={styles.text2}>
-        No Additive Flavouring <br /> or Preservatives
-      </Text>
-      <Text className={styles.text3}>Safe & Hygienically <br /> Produced </Text>
-      <Text className={styles.text1}>Convenient & <br /> Ready to Use</Text>
-      <Text className={styles.text4}>100% Natural Goodness <br /> of Coconut</Text> */}
+      {/* <div className="container">
+        <div className="mainContent1">
+          <div className={`${styles.content1}`}>
+            <Image src={arrow3} alt="arrow" className={styles.arrow1} />
+            <Image src={circle1} alt="circle" className={styles.circle1} />
+            <Text
+              textAlign="center"
+              mb={0}
+              color={"white"}
+              className={styles.text1}
+            >
+              Convenient & <br /> Ready to Use
+            </Text>
+          </div>
+        </div>
+        <div className="mainContent2">
+          <div className={`${styles.content2}`}>
+            <Image src={arrow1} alt="arrow" className={styles.arrow2} />
+            <Image src={circle2} alt="circle" className={styles.circle2} />
+            <Text
+              textAlign={"center"}
+              mb={0}
+              color={"white"}
+              className={styles.text2}
+            >
+              No Additive Flavouring <br /> or Preservatives
+            </Text>
+          </div>
+        </div>
+        <div className="mainContent3">
+          <div className={`${styles.content3}`}>
+            <Image src={arrow2} alt="arrow" className={styles.arrow3} />
+            <Image src={circle3} alt="circle" className={styles.circle3} />
+            <Text
+              textAlign={"center"}
+              mb={0}
+              color={"white"}
+              className={styles.text3}
+            >
+              Safe & Hygienically <br /> Produced
+            </Text>
+          </div>
+        </div>
+        <div className="mainContent4">
+          <div className={`${styles.content4}`}>
+            <Image src={arrow4} alt="arrow" className={styles.arrow4} />
+            <Image src={circle4} alt="circle" className={styles.circle4} />
+            <Text
+              textAlign={"center"}
+              mb={0}
+              color={"white"}
+              className={styles.text4}
+            >
+              100% Natural Goodness of <br /> Coconut
+            </Text>
+          </div>
+        </div>
+        <div className="mainContent5">
+          <div className={`${styles.content5}`}>
+            <Image src={arrow5} alt="arrow" className={styles.arrow5} />
+            <Image src={circle5} alt="circle" className={styles.circle5} />
+            <Text
+              textAlign={"center"}
+              mb={0}
+              color={"white"}
+              className={styles.text5}
+            >
+              Year Round Consistent Quality
+            </Text>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 }

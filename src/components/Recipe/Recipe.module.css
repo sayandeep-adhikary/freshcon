@@ -1,0 +1,13 @@
+.mainContainer {
+  background-color: #0c7236;
+}
+.recipeContainer {
+  font-family: "Varela Round", sans-serif;
+  background-color: #fff3ec;
+  position: relative;
+  border-radius: 2rem !important;
+}
+.cardBox {
+  font-family: "Varela Round", sans-serif;
+  padding-top: 4rem !important;
+}

@@ -1,12 +1,12 @@
 .mainProductContainer {
   font-family: "Varela Round", sans-serif;
-  background-color: #0c7236;
+  background-color: #0C7236;
   min-height: 135vh;
   position: relative;
 }
-.headingText {
-  font-size: 2rem;
-  padding: 5rem 0;
+.sand1 {
+  position: absolute;
+  bottom: 0;
 }
 .productImg {
   position: absolute;
@@ -15,10 +15,140 @@
   bottom: 5%;
   z-index: 3;
 }
-.sand1 {
-  position: absolute;
-  bottom: 0;
+.headingText {
+  font-size: 1.5rem;
+  padding: 5rem 0;
 }
+@media (width < 500px){
+  .mainProductContainer {
+    min-height: 65vh;
+  }
+  .productImg {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    bottom: 2%;
+    z-index: 3;
+  }
+}
+/* .mainContent1,
+.mainContent2,
+.mainContent3,
+.mainContent4,
+.mainContent5 {
+  position: absolute;
+}
+.content1,
+.content2,
+.content3,
+.content4,
+.content5 {
+  position: relative;
+  top: 0;
+}
+.content1 {
+  top: 18rem !important;
+  left: 4rem;
+}
+.circle1 {
+  position: absolute;
+  top: 4rem;
+}
+.text1 {
+  position: absolute;
+  top: 5.5rem;
+  left: 4rem;
+}
+.arrow1 {
+  position: absolute;
+  left: 10rem;
+}
+.content2 {
+  top: 10rem !important;
+  right: -40rem;
+}
+.circle2 {
+  position: absolute;
+  top: -7rem;
+  left:5rem;
+}
+.text2 {
+  position: absolute;
+  top: -5rem;
+  left: 10rem;
+}
+.arrow2 {
+  position: absolute;
+  left: 0;
+}
+.content3 {
+  top: 10rem !important;
+  left: 42rem;
+}
+.circle3 {
+  position: absolute;
+  top: 10rem;
+  left:5rem;
+}
+.text3 {
+  position: absolute;
+  top: 12rem;
+  left: 9rem;
+}
+.arrow3 {
+  position: absolute;
+  top: 8rem;
+  left: 0rem;
+}
+.content4 {
+  left: -2rem;
+}
+.circle4 {
+  position: absolute;
+  top: 3rem;
+  left:5rem;
+}
+.text4 {
+  position: absolute;
+  top: 5rem;
+  left: 9rem;
+}
+.arrow4 {
+  position: absolute;
+  top: 9rem;
+  left: 20rem;
+}
+.content5 {
+  left: 26rem;
+}
+.circle5 {
+  position: absolute;
+  top: -2rem;
+  left:6rem;
+}
+.text5 {
+  position: absolute;
+  top: 0rem;
+  left: 9rem;
+}
+.arrow5 {
+  position: absolute;
+  top: 5rem;
+  left: 12rem;
+}
+
+.productImg {
+  position: absolute;
+  width: 22%;
+  left: 38%;
+  bottom: 5%;
+  z-index: 3;
+}
+.headingText {
+  font-size: 2rem;
+  padding: 5rem 0;
+} */
+/* 
 .arrow1,
 .arrow2,
 .arrow3,
@@ -54,7 +184,7 @@
 }
 @media (width < 500px) {
   .mainProductContainer {
-    min-height: 73vh;
+    min-height: 65vh;
   }
   .productImg {
     width: 40%;
@@ -103,7 +233,7 @@
     left: 4rem;
     scale: 0.37;
   }
-}
+} */
 
 /* .sand1 {
   position: absolute;

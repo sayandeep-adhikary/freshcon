@@ -1,12 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Varela+Round&display=swap");
 *::-webkit-scrollbar {
   display: none;
   overflow-x: hidden;
 }
-body {
+*, body {
+  scroll-behavior: smooth !important;
   user-select: none !important;
 }
-@media (width < 500px){
+@media (width < 500px) {
   body {
     text-align: center;
   }

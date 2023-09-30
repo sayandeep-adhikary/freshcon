@@ -9,7 +9,7 @@ export default function Navbar() {
     
   }
   return (
-    <nav className={`navbar navbar-expand-lg navbar-light ${styles.navContainer}`}>
+    <nav className={`navbar navbar-expand-lg navbar-light ${styles.navContainer}`} id="nav">
       <NavLink className={`navbar-brand my-2 ${styles.navLogo} ml-1`} to="/">
         <img
           src={logo}

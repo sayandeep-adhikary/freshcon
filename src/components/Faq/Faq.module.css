@@ -1,0 +1,18 @@
+.faqContainer {
+    font-family: 'Varela Round', sans-serif;
+}
+.accordionItem {
+    margin: 2rem 0;
+}
+.accordionButton {
+    height: 4rem !important;
+    padding: 3rem 1rem !important;
+    background-color: rgba(33, 153, 83, 0.2);
+    border-radius: 20px;
+}
+.accordionButton:focus,
+.accordionButton:active {
+    height: 4rem !important;
+    padding: 3rem 1rem !important;
+    background-color: rgba(33, 153, 83, 0.2) !important;
+}
