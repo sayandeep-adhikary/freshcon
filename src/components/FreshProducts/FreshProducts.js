@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./FreshProducts.module.css";
 import { Text, Image, HStack, Flex } from "@chakra-ui/react";
-import treeLeaves from "../../images/2ndsectioncoconutimage.png";
 import brokenCoconut from "../../images/brokenCoconut.png";
 import imageText from "../../images/imageText.png";
 import fresh from "../../images/fresh.png";
