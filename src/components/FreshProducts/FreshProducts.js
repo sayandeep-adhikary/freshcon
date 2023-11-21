@@ -14,12 +14,6 @@ import lifeinsurance from "../../images/lifeinsurance.png";
 export default function FreshProducts() {
   return (
     <div className={styles.mainContainer}>
-        <Image
-          objectFit="cover"
-          src={treeLeaves}
-          alt="coconut tree"
-          className={styles.CoconutTreeImg}
-        />
       <div className={`container ${styles.container} mt-5`}>
         <div className="row">
           <div className="col-12">
